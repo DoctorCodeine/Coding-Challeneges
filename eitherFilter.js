@@ -5,7 +5,7 @@ function eitherFilter(array, callback1, callback2) {
    array.filter(element => {
      //If the arguement is called by callback 1, push the element into the result array 
     if (callback1(element) || callback2(element)) result.push(element); 
-     //f the arguement is called by callback 1, push the element into the result array 
+     
     
   })
   return result; 
