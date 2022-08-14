@@ -7,9 +7,8 @@
     		parameter: reducer function, callback that will be used on each element of the array, and the start value that is initalized at 0 
 */ 
 const reduce = (array, callback, startValue) => { 
- const reducer = ((acc,curr) => acc + curr);
 
-  return array.reduce((reducer, callback),  startValue);
+  return array.reduce((callback),  startValue);
 } 
 
 // Uncomment these to check your work!
